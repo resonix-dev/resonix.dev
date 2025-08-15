@@ -21,7 +21,7 @@ This `docs` folder contains the multilingual (currently `en` and `de`) content f
 
 ## Contributing to the Docs
 
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) in this folder. In short:
+Please read [CONTRIBUTING.md](./CONTRIBUTING.md) in this folder. In short:
 
 - For substantial structural/content changes, open an issue first.
 - Keep language parity: when adding or changing an English page, create/update the German counterpart (or add a TODO note inside it).
