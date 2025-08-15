@@ -59,13 +59,6 @@ export default defineConfig({
       },
     ],
     ["meta", { property: "og:url", content: "https://resonix.dev/" }],
-    [
-      "script",
-      {},
-      `
-        (function(){try{var p=location.pathname;var supported=['en','de'];var re=/^\/(en|de)(\/|$)/;var storeKey='resonix-lang';function preferred(){var s=localStorage.getItem(storeKey);if(supported.includes(s||''))return s;var nav=(navigator.language||navigator.userLanguage||'').toLowerCase();if(nav.startsWith('de'))return 'de';return 'en';}if(!re.test(p)){var lang=preferred();if(p==='/'||p===''){location.replace('/'+lang+'/');}else{var clean=p.replace(/^\//,'');location.replace('/'+lang+'/'+clean);}}else{var seg=p.split('/')[1];if(supported.includes(seg)){try{localStorage.setItem(storeKey,seg);}catch(e){}}}}catch(e){}})();
-      `,
-    ],
   ],
   themeConfig: {
     logo: "https://resonix.dev/logo.png",
