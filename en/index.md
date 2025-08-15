@@ -19,7 +19,7 @@ hero:
       text: WebSocket Stream
       link: /api/websocket
   image:
-    src: https://raw.githubusercontent.com/resonix-dev/resonix-node/refs/heads/master/assets/app/exe.png
+    src: https://resonix.dev/logo.png
     alt: Resonix logo
 
 features:
