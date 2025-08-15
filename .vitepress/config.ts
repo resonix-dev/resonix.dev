@@ -45,7 +45,7 @@ export default defineConfig({
       {
         rel: "icon",
         type: "image/png",
-        href: "https://raw.githubusercontent.com/resonix-dev/resonix-node/refs/heads/master/assets/app/exe.png",
+        href: "https://resonix.dev/logo.png",
       },
     ],
     ["meta", { name: "theme-color", content: "#ff914d" }],
@@ -55,7 +55,7 @@ export default defineConfig({
       "meta",
       {
         property: "og:image",
-        content: "https://vitepress.dev/vitepress-og.jpg",
+        content: "https://resonix.dev/og.png",
       },
     ],
     ["meta", { property: "og:url", content: "https://resonix.dev/" }],
@@ -68,7 +68,7 @@ export default defineConfig({
     ],
   ],
   themeConfig: {
-    logo: "https://raw.githubusercontent.com/resonix-dev/resonix-node/refs/heads/master/assets/app/exe.png",
+    logo: "https://resonix.dev/logo.png",
     editLink: {
       pattern: "https://github.com/resonix-dev/docs/blob/development/:path",
       text: "Edit this page on GitHub",
