@@ -7,6 +7,7 @@
     "dev": "vitepress dev",
     "build": "vitepress build",
     "preview": "vitepress preview",
+    "format": "prettier --write .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Resonix OSS Team",
@@ -18,6 +19,11 @@
   "homepage": "https://resonix.dev",
   "packageManager": "pnpm@10.14.0",
   "devDependencies": {
+    "prettier": "^3.6.2",
     "vitepress": "2.0.0-alpha.11"
+  },
+  "dependencies": {
+    "vitepress-plugin-group-icons": "^1.6.3",
+    "vue": "^3.5.0"
   }
 }
