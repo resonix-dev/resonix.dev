@@ -1,5 +1,5 @@
 {
-  "name": "docs",
+  "name": "resonix.dev",
   "version": "1.0.0",
   "description": "Documentation site for resonix using vitepress",
   "type": "module",
@@ -14,7 +14,7 @@
   "license": "BSD-3-Clause",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/resonix-dev/docs.git"
+    "url": "git+https://github.com/resonix-dev/resonix.dev.git"
   },
   "homepage": "https://resonix.dev",
   "packageManager": "pnpm@10.14.0",

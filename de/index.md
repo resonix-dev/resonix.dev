@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: Loslegen
-      link: /de/guide/introduction
+      link: /de/guide/
     - theme: alt
       text: API Referenz
       link: /de/api/reference

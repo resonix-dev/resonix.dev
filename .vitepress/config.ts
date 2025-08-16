@@ -93,8 +93,13 @@ export default async function () {
           nav: [
             {
               text: "Guide",
-              link: "/guide/introduction",
+              link: "/guide/",
               activeMatch: "/guide/",
+            },
+            {
+              text: "Client",
+              link: "/guide/client/overview",
+              activeMatch: "/guide/client/",
             },
             { text: "API", link: "/api/reference", activeMatch: "/api/" },
             { text: "Config", link: "/guide/configuration" },
@@ -115,7 +120,11 @@ export default async function () {
           sidebar: {
             "/guide/": [
               {
-                text: "Getting Started",
+                text: "Overview",
+                link: "/guide/",
+              },
+              {
+                text: "Audio Node (Server)",
                 collapsed: false,
                 items: [
                   { text: "Introduction", link: "/guide/introduction" },
@@ -126,6 +135,21 @@ export default async function () {
                   { text: "Deployment", link: "/guide/deployment" },
                   { text: "Security", link: "/guide/security" },
                   { text: "Troubleshooting", link: "/guide/troubleshooting" },
+                ],
+              },
+              {
+                text: "Client (resonix.js)",
+                collapsed: false,
+                items: [
+                  { text: "Overview", link: "/guide/client/overview" },
+                  { text: "Installation", link: "/guide/client/installation" },
+                  { text: "Usage & Examples", link: "/guide/client/usage" },
+                  { text: "API", link: "/guide/client/api" },
+                  {
+                    text: "Troubleshooting",
+                    link: "/guide/client/troubleshooting",
+                  },
+                  { text: "Roadmap", link: "/guide/client/roadmap" },
                 ],
               },
             ],
@@ -152,8 +176,13 @@ export default async function () {
           nav: [
             {
               text: "Anleitung",
-              link: "/de/guide/introduction",
+              link: "/de/guide/",
               activeMatch: "/de/guide/",
+            },
+            {
+              text: "Client",
+              link: "/de/guide/client/overview",
+              activeMatch: "/de/guide/client/",
             },
             { text: "API", link: "/de/api/reference", activeMatch: "/de/api/" },
             { text: "Konfiguration", link: "/de/guide/configuration" },
@@ -174,7 +203,11 @@ export default async function () {
           sidebar: {
             "/de/guide/": [
               {
-                text: "Erste Schritte",
+                text: "Übersicht",
+                link: "/de/guide/",
+              },
+              {
+                text: "Audio Node (Server)",
                 collapsed: false,
                 items: [
                   { text: "Einführung", link: "/de/guide/introduction" },
@@ -185,6 +218,27 @@ export default async function () {
                   { text: "Bereitstellung", link: "/de/guide/deployment" },
                   { text: "Sicherheit", link: "/de/guide/security" },
                   { text: "Fehlerbehebung", link: "/de/guide/troubleshooting" },
+                ],
+              },
+              {
+                text: "Client (resonix.js)",
+                collapsed: false,
+                items: [
+                  { text: "Überblick", link: "/de/guide/client/overview" },
+                  {
+                    text: "Installation",
+                    link: "/de/guide/client/installation",
+                  },
+                  {
+                    text: "Nutzung & Beispiele",
+                    link: "/de/guide/client/usage",
+                  },
+                  { text: "API", link: "/de/guide/client/api" },
+                  {
+                    text: "Fehlerbehebung",
+                    link: "/de/guide/client/troubleshooting",
+                  },
+                  { text: "Roadmap", link: "/de/guide/client/roadmap" },
                 ],
               },
             ],
