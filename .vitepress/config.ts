@@ -73,7 +73,7 @@ export default async function () {
     themeConfig: {
       logo: "https://resonix.dev/logo.png",
       editLink: {
-        pattern: "https://github.com/resonix-dev/docs/blob/development/:path",
+        pattern: "https://github.com/resonix-dev/docs/blob/master/:path",
         text: "Edit this page on GitHub",
       },
       socialLinks: [{ icon: "github", link: "https://github.com/resonix-dev" }],
