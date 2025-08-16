@@ -42,5 +42,3 @@ Strength comes from transport security: deploy behind TLS (reverse proxy or term
 | mTLS / API key rotation                               | Medium   |
 | Downloaded binary signature verification              | Medium   |
 | Audit log of administrative operations                | Low      |
-
-Next: see [Troubleshooting](./troubleshooting.md).

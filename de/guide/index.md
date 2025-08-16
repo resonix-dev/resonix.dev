@@ -35,5 +35,3 @@ Client Themen:
 - [Client Roadmap](./client/roadmap.md)
 
 > Achte auf kompatible Versionen (gleiche Major.Minor empfohlen).
-
-Weiter: Wähle einen der beiden Bereiche oben.

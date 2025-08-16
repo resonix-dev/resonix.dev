@@ -27,6 +27,4 @@ Erste Frames können still sein; dauerhaft 0 => Quelle still oder falsches Forma
 
 ## TypeScript Typen fehlen
 
-`resonix` installiert? Nicht mit `@resonix/node` verwechseln. TS Server neu starten.
-
-Weiter zur [Client Roadmap](./roadmap.md).
+`resonix.js` installiert? Nicht mit `@resonix/node` verwechseln. TS Server neu starten.

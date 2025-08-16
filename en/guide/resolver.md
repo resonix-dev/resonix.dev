@@ -54,5 +54,3 @@ Before resolving or accepting direct URIs, `is_uri_allowed()` enforces configure
 | Resolver timeout                            | Abort with error (download canceled) |
 | Missing Spotify credentials                 | 400 for Spotify URL when required    |
 | yt-dlp/ffmpeg absent & cannot auto-download | Startup dependency check failure     |
-
-Next: view the [REST & WebSocket API](../api/reference.md).

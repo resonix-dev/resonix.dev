@@ -2,9 +2,9 @@
 outline: deep
 ---
 
-# Client Overview (`resonix`)
+# Client Overview (`resonix.js`)
 
-`resonix` is a minimal, opinionated Node.js / TypeScript client for interacting with a running Resonix audio node and piping raw PCM frames into Discord voice (via `@discordjs/voice`).
+`resonix.js` is a minimal, opinionated Node.js / TypeScript client for interacting with a running Resonix audio node and piping raw PCM frames into Discord voice (via `@discordjs/voice`).
 
 Goals:
 
@@ -42,5 +42,3 @@ Out of scope (DIY or future): integrated track queue abstraction, search helpers
 | Queue & Loop       | Server manages queue; client can add via REST (future) |
 | PCM Stream         | Client consumes frames via WebSocket automatically     |
 | Events             | (Planned) expose events once server API stabilized     |
-
-Continue with [Client Installation](./installation.md).

@@ -71,6 +71,4 @@ You might not need Resonix if you only serve static files or require advanced tr
 - Provide a minimal stable surface area for client libraries
 - Remain platform agnostic (Windows, Linux, macOS)
 
-Next: continue with [Installation](./installation.md).
-
 [Symphonia]: https://github.com/pdeljanov/Symphonia

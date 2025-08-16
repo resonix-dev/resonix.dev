@@ -51,5 +51,3 @@ Methoden:
 - Ereignisse (`TrackStart`, etc.) an Client weiterreichen.
 - Automatischer Reconnect mit Backoff.
 - Optionale lokale Queue Abstraktion.
-
-Weiter zur [Client Fehlerbehebung](./troubleshooting.md).

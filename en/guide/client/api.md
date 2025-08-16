@@ -51,5 +51,3 @@ Methods:
 - Event emission (`TrackStart`, etc.) bridged to client side.
 - Automatic reconnection & exponential backoff.
 - Optional local queue wrapper convenience.
-
-Proceed to [Client Troubleshooting](./troubleshooting.md).

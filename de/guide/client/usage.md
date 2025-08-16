@@ -8,7 +8,7 @@ Minimaler Discord Bot Slash Command zum Join & Abspielen eines Tracks:
 
 ```ts
 import { Client, GatewayIntentBits } from "discord.js";
-import { ResonixNode, ResonixManager } from "resonix";
+import { ResonixNode, ResonixManager } from "resonix.js";
 
 const client = new Client({
   intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildVoiceStates],
@@ -72,5 +72,3 @@ Der Manager hält einen `ResonixPlayer` pro Guild (Map nach Guild ID). Keine zus
 ## Logging / Debugging
 
 Setze `debug: true` in den `ResonixNode` Optionen um erste Frame‑Energien, AudioPlayer Debug und WebSocket Ereignisse zu loggen.
-
-Weiter zur [Client API](./api.md).

@@ -123,5 +123,3 @@ function playBuffered() {
 | Opus encoded stream       | Reduce bandwidth & frame drops.  |
 | Heartbeat / ping messages | Detect stalled connections.      |
 | Explicit timestamps       | Improve sync & drift correction. |
-
-Return to [API Overview](./reference.md) or check [REST Endpoints](./endpoints.md).

@@ -37,5 +37,3 @@ Client topics:
 - [Client Roadmap](./client/roadmap.md)
 
 > The server and client evolve together; ensure compatible versions (client README lists tested server version range). Generally a client with the same major.minor as the node is expected to work.
-
-Next: pick a track above depending on whether you are deploying the server or integrating a bot/app.

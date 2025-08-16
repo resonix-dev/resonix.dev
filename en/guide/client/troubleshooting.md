@@ -27,6 +27,4 @@ Initial frames may be silent; persistent zero energy indicates silent source or 
 
 ## TypeScript Types Not Found
 
-Ensure you installed `resonix` (not `@resonix/node`). Clear build cache or restart TS server.
-
-Next: view [Client Roadmap](./roadmap.md).
+Ensure you installed `resonix.js` (not `@resonix/node`). Clear build cache or restart TS server.

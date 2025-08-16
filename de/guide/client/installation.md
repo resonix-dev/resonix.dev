@@ -9,19 +9,19 @@ Installiere das npm Paket in deinem Bot / App Projekt:
 ::: code-group
 
 ```sh [npm]
-$ npm install resonix
+$ npm install resonix.js
 ```
 
 ```sh [pnpm]
-$ pnpm install resonix
+$ pnpm install resonix.js
 ```
 
 ```sh [yarn]
-$ yarn add resonix
+$ yarn add resonix.js
 ```
 
 ```sh [bun]
-$ bun add resonix
+$ bun add resonix.js
 ```
 
 :::
@@ -37,5 +37,3 @@ Umgebungsaspekte:
 
 - Falls der Server ein Passwort nutzt, als Umgebung setzen und in REST Calls (später Helper) mitsenden.
 - Firewalls / Container Regeln müssen ausgehende WebSockets erlauben.
-
-Weiter mit [Nutzung & Beispiele](./usage.md).

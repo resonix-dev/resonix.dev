@@ -14,7 +14,7 @@ import {
   Routes,
   REST,
 } from "discord.js";
-import { ResonixNode, ResonixManager } from "resonix";
+import { ResonixNode, ResonixManager } from "resonix.js";
 
 const client = new Client({
   intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildVoiceStates],
@@ -78,5 +78,3 @@ The manager maintains one `ResonixPlayer` per guild (map keyed by guild id). No 
 ## Logging / Debugging
 
 Set `debug: true` in `ResonixNodeOptions` to log first few frame energies, audio player debug, and WebSocket events.
-
-Next: see the [Client API Surface](./api.md).

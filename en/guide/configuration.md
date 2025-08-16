@@ -124,5 +124,3 @@ No scheme (e.g., `Bearer`) is required. A missing or mismatched header returns `
 ## Tool Cache
 
 Auto-downloaded support tools stored in `~/.resonix/bin` (env var `RESONIX_TOOLS_DIR` exported for clarity). Binaries include `yt-dlp`, `ffmpeg`, `ffplay`, `ffprobe`.
-
-Next: learn about the [Resolver](./resolver.md) or explore [Architecture](./architecture.md).
