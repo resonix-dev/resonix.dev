@@ -40,5 +40,3 @@ All endpoints reside under `/v0`. Authentication: include `Authorization: <passw
 ## Status Snapshot
 
 `GET /v0/players` returns array of player objects each embedding current track info + metadata.
-
-Proceed to detailed [REST Endpoints](./endpoints.md) or [WebSocket Streaming](./websocket.md).

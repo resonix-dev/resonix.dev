@@ -201,5 +201,3 @@ Body: `["base64", "base64"]` -> list of `TrackOut` objects.
 | 404  | Player not found                               |
 | 409  | Player id already exists                       |
 | 500  | Internal error                                 |
-
-Continue to [WebSocket Streaming](./websocket.md).

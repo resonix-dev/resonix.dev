@@ -125,5 +125,3 @@ Subscribe via `GET /v0/players/{id}/events` (WebSocket).
 - Global mixing & multi-player mixing
 - Adaptive bitrate / dynamic frame sizing
 - Seek & timeline operations
-
-Next: inspect the [Deployment guide](./deployment.md).

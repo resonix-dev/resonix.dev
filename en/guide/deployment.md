@@ -95,5 +95,3 @@ No dedicated endpoint yet; use `/version` or `/info` for liveness.
 ## Backups
 
 Currently stateless (no persistent metadata or queue). Only config (`resonix.toml`) and log retention policies matter.
-
-Next: review [Security practices](./security.md).

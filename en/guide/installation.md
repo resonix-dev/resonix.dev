@@ -145,5 +145,3 @@ curl -X POST http://localhost:2333/v0/players \
 ```
 
 If authentication is configured add header: `-H "Authorization: <password>"`.
-
-Next: review [Configuration](./configuration.md).
