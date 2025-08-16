@@ -6,7 +6,67 @@ outline: deep
 
 Minimal Discord bot command to join & play a track:
 
-```ts
+::: tip
+
+For the `index.js` file to work, make sure to add the `type` field like bellow to your `package.json` file:
+
+```json
+{
+  "type": "module"
+}
+```
+
+:::
+
+::: code-group
+
+```js [index.js]
+import {
+  Client,
+  GatewayIntentBits,
+  SlashCommandBuilder,
+  Routes,
+  REST,
+} from "discord.js";
+import { ResonixNode, ResonixManager } from "resonix.js";
+
+const client = new Client({
+  intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildVoiceStates],
+});
+
+const node = new ResonixNode({
+  baseUrl: "http://localhost:2333",
+  version: "v0",
+  debug: true,
+});
+const manager = new ResonixManager(client, node);
+
+client.on("interactionCreate", async (i) => {
+  if (!i.isChatInputCommand()) return;
+  if (i.commandName === "play") {
+    const uri = i.options.getString("query", true); // can be direct or resolvable (if server resolver enabled)
+    const memberVc =
+      i.guild?.members.me?.voice.channel ?? i.member.voice?.channel;
+    if (!memberVc)
+      return i.reply({
+        content: "Join a voice channel first.",
+        ephemeral: true,
+      });
+    const connection = await manager.join({
+      guildId: i.guildId,
+      voiceChannelId: memberVc.id,
+      adapterCreator: i.guild.voiceAdapterCreator,
+    });
+    const player = await manager.create(i.guildId, connection);
+    await player.play(uri);
+    await i.reply(`Playing: ${uri}`);
+  }
+});
+
+client.login(process.env.BOT_TOKEN);
+```
+
+```ts [index.ts]
 import {
   Client,
   GatewayIntentBits,
@@ -51,6 +111,8 @@ client.on("interactionCreate", async (i) => {
 
 client.login(process.env.BOT_TOKEN);
 ```
+
+:::
 
 ## Volume
 
