@@ -19,7 +19,7 @@ export default async function () {
       "en/:rest*": ":rest*",
     },
     title: "Resonix",
-    description: "High-performance audio node",
+    description: "High-performance relay-based audio node",
     lang: "en-US",
     lastUpdated: true,
     cleanUrls: true,
@@ -88,7 +88,7 @@ export default async function () {
         label: "English",
         lang: "en-US",
         title: "Resonix",
-        description: "High-performance audio node",
+        description: "High-performance relay-based audio node",
         themeConfig: {
           nav: [
             {
@@ -171,7 +171,7 @@ export default async function () {
         label: "Deutsch",
         lang: "de-DE",
         title: "Resonix",
-        description: "Hochleistungs Audio Node",
+        description: "Hochleistungs Relay-basierter Audio Node",
         themeConfig: {
           nav: [
             {

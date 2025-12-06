@@ -30,7 +30,7 @@ This section dissects internal modules to help contributors and advanced integra
 
 ## Release Artifact Architectures
 
-Official build targets (v0.2.6) and typical characteristics:
+Official build targets (v0.3.0) and typical characteristics:
 
 | OS      | Arch    | Notes                                                 |
 | ------- | ------- | ----------------------------------------------------- |

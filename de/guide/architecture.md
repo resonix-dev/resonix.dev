@@ -30,7 +30,7 @@ Dieser Abschnitt zerlegt interne Module für Beitragende und fortgeschrittene In
 
 ## Release‑Artefakt Architekturen
 
-Offizielle Build‑Ziele (v0.2.6) und typische Merkmale:
+Offizielle Build‑Ziele (v0.3.0) und typische Merkmale:
 
 | OS      | Arch    | Hinweise                                   |
 | ------- | ------- | ------------------------------------------ |

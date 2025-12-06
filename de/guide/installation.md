@@ -12,19 +12,19 @@ Resonix kann betrieben werden über:
 
 ## 1. Vorgebaute Binaries
 
-Neueste Release (Beispiel v0.2.6): https://github.com/resonix-dev/resonix-node/releases
+Neueste Release (Beispiel v0.3.0): https://github.com/resonix-dev/resonix-node/releases
 
-### Unterstützte Artefakte (v0.2.6)
+### Unterstützte Artefakte (v0.3.0)
 
 | OS      | Arch    | Datei                                      |
 | ------- | ------- | ------------------------------------------ |
-| Linux   | x86_64  | `resonix-node-v0.2.6-linux-x86_64.tar.gz`  |
-| Linux   | aarch64 | `resonix-node-v0.2.6-linux-aarch64.tar.gz` |
-| Linux   | armv7   | `resonix-node-v0.2.6-linux-armv7.tar.gz`   |
-| macOS   | aarch64 | `resonix-node-v0.2.6-macos-aarch64.tar.gz` |
-| macOS   | x86_64  | `resonix-node-v0.2.6-macos-x86_64.tar.gz`  |
-| Windows | x86_64  | `resonix-node-v0.2.6-windows-x86_64.zip`   |
-| Windows | aarch64 | `resonix-node-v0.2.6-windows-aarch64.zip`  |
+| Linux   | x86_64  | `resonix-node-v0.3.0-linux-x86_64.tar.gz`  |
+| Linux   | aarch64 | `resonix-node-v0.3.0-linux-aarch64.tar.gz` |
+| Linux   | armv7   | `resonix-node-v0.3.0-linux-armv7.tar.gz`   |
+| macOS   | aarch64 | `resonix-node-v0.3.0-macos-aarch64.tar.gz` |
+| macOS   | x86_64  | `resonix-node-v0.3.0-macos-x86_64.tar.gz`  |
+| Windows | x86_64  | `resonix-node-v0.3.0-windows-x86_64.zip`   |
+| Windows | aarch64 | `resonix-node-v0.3.0-windows-aarch64.zip`  |
 
 Jedes Archiv hat eine `.sha256` Prüfsumme.
 
@@ -34,8 +34,8 @@ Executable entpacken und in PATH legen oder direkt ausführen.
 
 ```powershell
 # Windows Beispiel
-Invoke-WebRequest -OutFile resonix-node-v0.2.6-windows-x86_64.zip https://github.com/resonix-dev/resonix-node/releases/download/v0.2.6/resonix-node-v0.2.6-windows-x86_64.zip
-Expand-Archive resonix-node-v0.2.6-windows-x86_64.zip -DestinationPath .
+Invoke-WebRequest -OutFile resonix-node-v0.3.0-windows-x86_64.zip https://github.com/resonix-dev/resonix-node/releases/download/v0.3.0/resonix-node-v0.3.0-windows-x86_64.zip
+Expand-Archive resonix-node-v0.3.0-windows-x86_64.zip -DestinationPath .
 ./resonix-node.exe
 ```
 
@@ -46,19 +46,19 @@ Erster Start erstellt `resonix.toml` falls fehlend.
 PowerShell:
 
 ```powershell
-Get-FileHash resonix-node-v0.2.6-windows-x86_64.zip -Algorithm SHA256 | Select-Object -ExpandProperty Hash
+Get-FileHash resonix-node-v0.3.0-windows-x86_64.zip -Algorithm SHA256 | Select-Object -ExpandProperty Hash
 ```
 
 Linux / macOS:
 
 ```bash
-sha256sum resonix-node-v0.2.6-linux-x86_64.tar.gz
+sha256sum resonix-node-v0.3.0-linux-x86_64.tar.gz
 ```
 
 Oder `.sha256` Datei nutzen:
 
 ```bash
-sha256sum -c resonix-node-v0.2.6-linux-x86_64.tar.gz.sha256
+sha256sum -c resonix-node-v0.3.0-linux-x86_64.tar.gz.sha256
 ```
 
 ## 2. Node.js Global Package

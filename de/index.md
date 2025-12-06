@@ -4,10 +4,10 @@ layout: home
 
 hero:
   name: Resonix
-  text: Hochperformanter Audio‑Node
+  text: Hochleistungs Relay-basierter Audio-Node
   tagline: >
-    Leichter Audio‑Node für Echtzeit‑Decoding, EQ / Filter, Queue & Loop‑Modi,
-    erweiterbares Resolving (YouTube / Spotify / SoundCloud) und latenzarmes WebSocket‑Streaming.
+    Leichter Rust Audio‑Kern, der alles durch ffmpeg dekodiert, YouTube / Spotify / SoundCloud
+    über die Riva‑Bibliothek auflöst und PCM Frames + Events über latenzarme WebSockets sendet.
   actions:
     - theme: brand
       text: Loslegen
@@ -25,10 +25,10 @@ hero:
 features:
   - icon: ⚡
     title: Minimal & Schnell
-    details: Reiner Rust‑Kern mit Symphonia + optionalem ffmpeg‑Fallback für breite Codec‑Unterstützung; überträgt kompakte PCM‑Frames effizient über WebSockets.
+    details: Reiner Rust‑Kontrollpfad, der vollständig auf ffmpeg zum Dekodieren setzt und damit vorhersagbares, ressourcenschonendes PCM‑Streaming ermöglicht.
   - icon: 🔍
     title: Intelligenter Resolver
-    details: Optionaler, von yt-dlp + ffmpeg unterstützter Resolver/Downloader wandelt YouTube / Spotify / SoundCloud Links in direkt abspielbare Audiodateien um.
+    details: Der Resolver basiert auf der `riva`‑Extraktionsbibliothek (kein Python/yt-dlp) und versteht YouTube, SoundCloud, Spotify sowie `ytsearch:`‑Abfragen.
   - icon: 🎛️
     title: Player‑Steuerungs‑API
     details: REST Endpoints zum Erstellen von Playern, Verwalten von Queues, Loop‑Modi, Metadaten, Filtern und EQ.
@@ -39,6 +39,6 @@ features:
     title: Erweiterbare Filter
     details: Pro Player Lautstärke & 15‑Band parametrischer EQ mit Platz für zukünftige DSP‑Erweiterungen.
   - icon: 📦
-    title: Problemlos nutzbare Binaries
-    details: Vorgebaute Binaries & automatischer Erststart‑Download von yt-dlp / ffmpeg (optional) halten die Einrichtung simpel.
+    title: Selbstverwaltetes ffmpeg
+    details: Vorgebaute Binaries plus integrierter ffmpeg‑Bootstrapper laden die neueste BtbN‑Version in `~/.resonix/bin`, wenn kein System‑Binary vorhanden ist.
 ---
