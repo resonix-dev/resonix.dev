@@ -28,7 +28,7 @@ features:
     details: Reiner Rust‑Kontrollpfad, der vollständig auf ffmpeg zum Dekodieren setzt und damit vorhersagbares, ressourcenschonendes PCM‑Streaming ermöglicht.
   - icon: 🔍
     title: Intelligenter Resolver
-    details: Der Resolver basiert auf der `riva`‑Extraktionsbibliothek (kein Python/yt-dlp) und versteht YouTube, SoundCloud, Spotify sowie `ytsearch:`‑Abfragen.
+    details: Der Resolver basiert auf der `riva`‑Extraktionsbibliothek (kein Python/yt-dlp) und versteht YouTube und SoundCloud‑Abfragen. Spotify‑URLs werden über die offizielle API aufgelöst.
   - icon: 🎛️
     title: Player‑Steuerungs‑API
     details: REST Endpoints zum Erstellen von Playern, Verwalten von Queues, Loop‑Modi, Metadaten, Filtern und EQ.

@@ -28,7 +28,7 @@ features:
     details: Pure Rust control plane backed entirely by ffmpeg for decoding, keeping real‑time PCM streaming predictable and resource friendly.
   - icon: 🔍
     title: Smart Resolver
-    details: The resolver is powered by the `riva` extraction crate (no Python/yt-dlp) and can consume YouTube, SoundCloud, Spotify and `ytsearch:` queries.
+    details: The resolver is powered by the `riva` extraction crate (no Python/yt-dlp) and can consume YouTubea and SoundCloud queries. Spotify URLs are resolved via the official API.
   - icon: 🎛️
     title: Player Control API
     details: REST endpoints for creating players, managing queues, loop modes, metadata, filters and EQ.
